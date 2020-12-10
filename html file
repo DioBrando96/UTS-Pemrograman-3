@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form Cuti Pegawai</title>
+</head>
+<body>
+    <div class='head'>
+        <h1>Form Cuti Karyawan</h1>
+    </div>
+    <div class="form-input">
+        <div class="input">
+            <label for="inputan-id">Id:</label> <br>
+            <input class='inputan-id' type="text" placeholder="id pegawai">
+         
+          <div class="cek">
+            <label for="inputan-waktu">Lama Waktu Cuti:</label><br>
+            <input class='inputan-waktu' type="text" placeholder="Jumlah hari">
+            <button class="cek-btn">Cek</button>
+          </div>     
+        </div>
+        <div class="result">
+
+        </div>
+       
+        
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
